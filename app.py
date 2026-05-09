@@ -19,7 +19,7 @@ def webhook():
         # Lógica matemática que simula a IA (sem carregar o TensorFlow)
         limite = (salario * 0.4) + (score * 5) + (idade * 10)
 
-        resposta = f"Análise concluída! Com base no seu perfil, seu limites aprovado é R$ {limite:,.2f}."
+        resposta = f"Análise concluída! Com base no seu perfil, seu limite aprovado é R$ {limite:,.2f}."
     except:
         resposta = "Erro ao processar os dados. Tente novamente."
 
